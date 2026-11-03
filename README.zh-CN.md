@@ -2,7 +2,7 @@
 
 **给 DeepSeek Harness 装一个多 AI 专家会审台：同一个问题发给多家前沿模型，再由裁判模型汇总共识、分歧和结论。** 按次扣费，用支付宝给虾盘云钱包充值即可，不用申请任何海外 API Key。
 
-装免费，用一次扣一次余额。**低价会审单次 ≈ ¥0.01 量级**，深度会审可能到 ¥0.5——档位必须显式选。
+装免费，用一次扣一次余额。**低价会审单次 ≈ ¥0.05（实测口径，见下） 量级**，深度会审可能到 ¥0.5——档位必须显式选。
 
 ## 为什么需要它
 
@@ -27,7 +27,7 @@ dsh plugin --profile web add github:hfshfg/dsh-panel
 
 | 档位 | 成员 | 裁判 | 适用 |
 |---|---|---|---|
-| `econ` 低价会审 | claude-haiku-5-5 · gpt-4o-mini · gemini-2.5-flash · glm-5.3-flash | gpt-5-mini | 批量初筛、日常小决策，单次 ≈ ¥0.01 |
+| `econ` 低价会审 | claude-haiku-5-5 · gpt-4o-mini · gemini-2.5-flash · glm-5.3-flash | gpt-5-mini | 批量初筛、日常小决策，单次 ≈ ¥0.05（实测口径，见下） |
 | `std` 标准会审 | 上述 + gpt-5-mini · gpt-5.4-mini · deepseek-v4.1-flash | claude-sonnet-5-5 | 普通重要决策 |
 | `deep` 深度会审 | claude-opus-5 · claude-sonnet-5-5 · gpt-6.1-sol · gemini-3-pro · grok-4.20-multi-agent | claude-opus-5 | 错了代价很大的决策 |
 
