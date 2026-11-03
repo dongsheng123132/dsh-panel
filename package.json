@@ -1,0 +1,58 @@
+{
+  "name": "@hfshfg/dsh-panel",
+  "version": "0.1.0",
+  "description": "Multi-model council review for DeepSeek Harness: ask the same question to several frontier models, then have a judge synthesise the consensus, disagreements and verdict. Billed per use through a Xiapan Cloud device wallet.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "cordis.patch.yml",
+    "dsh-plugin.naming.json",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "multi-model",
+    "panel",
+    "council",
+    "llm-jury",
+    "review",
+    "会审",
+    "多模型",
+    "多AI专家",
+    "评审",
+    "低价会审",
+    "模型对比",
+    "xiapan",
+    "虾盘云",
+    "device-wallet",
+    "pay-per-use"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "*"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-tools": {
+      "optional": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hfshfg/dsh-panel"
+  },
+  "dsh": {
+    "bundle": true
+  }
+}
