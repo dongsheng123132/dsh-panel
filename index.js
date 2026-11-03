@@ -18,7 +18,7 @@ export function createDefinitions(ctx, config = {}) {
     const s = wallet.status()
     if (/余额不足/.test(message)) return `充值后重试：${s.rechargeUrl || '（未绑定钱包）'}`
     if (/凭证失效|401|403/.test(message)) {
-      return '先跑 dsh_aigc_wallet 或 dsh_panel_models 看钱包状态：余额为 0 或负数时上游会报 Invalid token，充值即可；余额正常才说明密钥失效，用 adopt 换一把。'
+      return '先跑 dsh_panel_models 看钱包状态：余额为 0 或负数时上游会报 Invalid token，充值即可；余额正常才说明密钥失效，用 adopt 换一把。'
     }
     return undefined
   }
