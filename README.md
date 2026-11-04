@@ -13,6 +13,10 @@ The practical twist: frontier overseas models (Opus / Sonnet / GPT-6 / Gemini 3 
 ## Install
 
 ```bash
+# from npm (recommended — npm 12 blocks github: installs by default)
+dsh plugin --profile web add @hfshfg/dsh-panel
+
+# or straight from the repository
 dsh plugin --profile web add github:hfshfg/dsh-panel
 ```
 
