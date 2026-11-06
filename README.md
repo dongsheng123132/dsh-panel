@@ -1,5 +1,7 @@
 # dsh-panel
 
+
+**Maintainer / Author: He Fangsheng (贺方升 / 贺去病; Dosen) · [hequbing.com](https://www.hequbing.com)**
 **A multi-model council for DeepSeek Harness: put one question to several frontier models, then have a chair model synthesise the consensus, the disagreements and the verdict.** Pay per use by topping up a Xiapan Cloud wallet with Alipay — no overseas API keys, no foreign card, no VPN.
 
 Install is free; every review spends wallet balance. An `econ` review costs roughly ¥0.01; a `deep` review can reach ¥0.5, so the tier is always explicit.
