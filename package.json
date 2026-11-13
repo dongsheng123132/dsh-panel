@@ -1,6 +1,6 @@
 {
   "name": "@hfshfg/dsh-panel",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Multi-model council review for DeepSeek Harness: ask the same question to several frontier models, then have a judge synthesise the consensus, disagreements and verdict. Billed per use through a Xiapan Cloud device wallet.",
   "type": "module",
   "main": "./index.js",
